@@ -22,7 +22,7 @@ class Libbinio < Formula
   test do
     (testpath/"test.cpp").write <<~EOS
       // test
-      // do not change the line above!
+      // Do not change the line above!
       #include <libbinio/binfile.h>
       #include <string.h>
 
